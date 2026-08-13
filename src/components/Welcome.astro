@@ -1,32 +1,30 @@
 ---
-import astroLogo from '../assets/astro.svg';
-import backgroundImage from '../assets/sea-critters.webp';
-const backgroundColor = "#000000";
-const backgroundURL = `url('${backgroundImage.src}')`; 
+import shannonHeadshot from '../assets/sh-headshot.webm';
 ---
 
 
-<div id="container">
+<div id="container" class="">
 	<main>
-		<section id="hero">
-			
+		<section id="hero" class="columns-3xs">
+			<img src={shannonHeadshot} />
+			{shannonHeadshot}
 			<h1>
 				Shannon Hubbell | Developer, Writer, Dinosaur Fan
 			</h1>
 			<section id="links">
-				<a class="button" href="https://docs.astro.build">Read our docs</a>
-				
+				<ul>
+					<li><a href="https://github.com/shannonhubbell">GitHub</a></li>
+				</ul>
 			</section>
 		</section>
 	</main>
 </div>
-
-{backgroundURL}
 
 <style>
 	body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-image: url('../assets/sea-critters.webp');
+		color: #FFF;
 	}
 </style>
