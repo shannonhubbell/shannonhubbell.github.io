@@ -1,8 +1,7 @@
 ---
+import '../styles/global.css';
 const { pageTitle } = Astro.props;
 const { pageDescription } = Astro.props;
-import backgroundImage from '../assets/sea-critters.webp';
-const backgroundURL = backgroundImage;
 ---
 <!doctype html>
 <html lang="en">
@@ -20,12 +19,13 @@ const backgroundURL = backgroundImage;
 	</body>
 </html>
 
-<style define:vars={{ backgroundURL }}>
+
+<style>
+
 	html,
 	body {
 		margin: 0;
 		width: 100%;
 		height: 100%;
-		background-image: url(../assets/);
 	}
 </style>
