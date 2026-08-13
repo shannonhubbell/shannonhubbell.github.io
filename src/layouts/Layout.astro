@@ -1,3 +1,9 @@
+---
+const { pageTitle } = Astro.props;
+const { pageDescription } = Astro.props;
+import backgroundImage from '../assets/sea-critters.webp';
+const backgroundURL = backgroundImage;
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -6,18 +12,20 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="icon" href="/favicon.ico" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<meta name="description" content={pageDescription} />
+		<title>{pageTitle}</title>
 	</head>
 	<body>
 		<slot />
 	</body>
 </html>
 
-<style>
+<style define:vars={{ backgroundURL }}>
 	html,
 	body {
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		background-image: url(../assets/);
 	}
 </style>
