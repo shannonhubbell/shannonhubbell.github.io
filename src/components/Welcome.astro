@@ -1,22 +1,10 @@
 ---
-import shannonHeadshot from '../assets/sh-headshot.webm';
+import HeaderBar from '../components/HeaderBar.astro';
 ---
 
-
-<div id="container" class="">
+<div id="container">
 	<main>
-		<section id="hero" class="columns-3xs">
-			<img src={shannonHeadshot} />
-			{shannonHeadshot}
-			<h1>
-				Shannon Hubbell | Developer, Writer, Dinosaur Fan
-			</h1>
-			<section id="links">
-				<ul>
-					<li><a href="https://github.com/shannonhubbell">GitHub</a></li>
-				</ul>
-			</section>
-		</section>
+		<HeaderBar />
 	</main>
 </div>
 
@@ -24,7 +12,14 @@ import shannonHeadshot from '../assets/sh-headshot.webm';
 	body {
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url('../assets/sea-critters.webp');
-		color: #FFF;
+		background-position: center;
+		background-color: var(--color-background);
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		color: var(--color-copy);
+	}
+	main {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 50px;
 	}
 </style>
