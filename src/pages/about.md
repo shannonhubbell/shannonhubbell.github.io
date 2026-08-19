@@ -1,5 +1,5 @@
 ---
-layouts: '../../layouts/Layout.astro'
+layout: '../layouts/Layout.astro'
 title: 'The greatest page of all time'
 description: 'This is the page description'
 ---

@@ -2,171 +2,72 @@
 import shannonHeadshot from "../assets/sh-headshot.webp";
 ---
 
-<main>
-    <header class="page-header">
-        <h1>Shannon Hubbell</h1>
-        <h2>Developer, Writer, Dinosaur Fan</h2>
-        <div id="links">
-            <ul>
-                <li>
-                    <a href="https://bsky.app/profile/brundlefly.bsky.social"
-                        >Bluesky</a
-                    >
-                </li>
-                <li>
-                    <a href="https://github.com/shannonhubbell">GitHub</a>
-                </li>
-                <li>
-                    <a href="mailto:brundlefly@gmail.com">Email</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <div class="projects">
-        <h3>Things I care about:</h3>
-        <ul>
-            <li>
-                <article>
-                    <header>
-                        <h1>
-                            <a href="https://themade.org" target="_blank"
-                                >The Museum of Art and Digital Entertainment</a
-                            >
-                        </h1>
-                    </header>
-                    <p>
-                        The MADE is a playable video game museum that I do
-                        volunteer work for! Play thousands of games on original
-                        hardware and check out one of a kind pieces of gaming
-                        history! We also offer classes, community events, and
-                        volunteering opportunities around gaming culture and
-                        creation.
-                    </p>
-                    <a href="https://themade.org" target="_blank" class="cta"
-                        >Visit Them!</a
-                    >
-                </article>
-            </li>
-            <li>
-                <article>
-                    <header>
-                        <h1>
-                            <a
-                                href="https://shannonelleryhubbell.itch.io/tank-flintlock"
-                                target="_blank">Tank Flintlock</a
-                            >
-                        </h1>
-                    </header>
-                    <p>
-                        <em>Tank Flintlock</em> is an interactive science fiction story -
-                        an adventure tale of talking crabs and grizzled former
-                        antiheroes set on a discarded resort planet called
-                        Ostia. There are also puns. The aim is to launch for
-                        competition in the 2026 Interactive Fiction Competition.
-                        Stay tuned for updates!
-                    </p>
-                    <a
-                        href="https://shannonelleryhubbell.itch.io/tank-flintlock"
-                        target="_blank"
-                        class="cta">Check it Out</a
-                    >
-                </article>
-            </li>
-        </ul>
-    </div>
-</main>
+<header>
+    <h1>Shannon Ellery Hubbell</h1>
+    <h2>Writer. Coder. Dinosaur&nbsp;aficionado.</h2>
+    <ul class="contact">
+        <li>
+            <a
+                href="https://bsky.app/profile/brundlefly.bsky.social"
+                target="_blank">Bluesky</a
+            >
+        </li>
+        <li>
+            <a href="https://www.instagram.com/shannonhubbell/" target="_blank"
+                >Instagram</a
+            >
+        </li>
+        <li>
+            <a
+                href="https://www.linkedin.com/in/shannonhubbell/"
+                target="_blank">LinkedIn</a
+            >
+        </li>
+        <li>
+            <a href="mailto:brundlefly+github@gmail.com">Email</a>
+        </li>
+    </ul>
+</header>
 
 <style>
-    main {
+
+    header {
+        width: 800px;
+        max-width: calc(100% - 2em);
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    h2 {
+        color: #888;
+        margin:  0;
+        padding: .4rem 0 0 0;
+    }
+
+    ul.contact {
+        list-style: none;
         display: flex;
-        align-content: space-between;
-        gap: 5%;
-    }
-    a {
-        color: var(--color-highlight);
-        &:hover {
-            color: var(--color-copy);
+        margin: 0;
+        padding: 1rem 0;
+        gap: 1rem;
+        li {
+            padding: 0 1rem 0 0;
+            border-right: 1px solid #999;
+            &:last-child {
+                border-right: none;
+            }
         }
-    }
-    header.page-header {
-        width: 30%;
-        text-align: right;
-        h1 {
-            color: var(--color-highlight);
-            text-transform: lowercase;
-            font-size: 2.3rem;
-            margin: 0;
-            line-height: 100%;
-            letter-spacing: 5%;
-        }
-        h2 {
-            font-size: 1.2rem;
-            font-weight: normal;
-            text-transform: lowercase;
-            margin: 5px 0;
-            letter-spacing: 5%;
-        }
-        #links {
-            ul {
-                list-style: none;
-                margin: 20px 0;
-                padding: 5px 0;
-                text-transform: lowercase;
-                margin: 0;
-                letter-spacing: 5%;
-                li {
-                    margin: 5px 0;
-                }
+        a {
+            color: #888;
+            &:hover {
+                color: #000;
             }
         }
     }
-    .projects {
-        width: 49%;
-        h3 {
-            text-transform: uppercase;
-            font-weight: normal;
-            font-size: 0.8rem;
-            letter-spacing: 7%;
-            color: #999;
-        }
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            li {
-                margin: 0;
-                padding: 20px 0;
-                border-top: 1px solid #444;
-            }
-            article {
-                h1 {
-                    font-size: 1.5rem;
-                    margin: 0;
-                    padding: 0;
-                    a {
-                        text-decoration: none;
-                        &:hover {
-                            text-decoration: underline;
-                        }
-                    }
-                }
-                p {
-                    font-size: 0.95rem;
-                    margin: 0;
-                    padding: 10px 0;
-                    line-height: 140%;
-                }
-                a.cta {
-                    display: inline-block;
-                    color: var(--color-background);
-                    background: var(--color-highlight);
-                    padding: 5px 10px;
-                    text-decoration: none;
-                    text-transform: lowercase;
-                    font-size: 0.95rem;
-                    border-radius: 3px;
-                }
-            }
-        }
-    }
+
 </style>
