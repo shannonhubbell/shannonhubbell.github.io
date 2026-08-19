@@ -6,14 +6,6 @@ description: 'Writer. Coder. Dinosaur aficionado.'
 
 # Resumé
 
-## About Shannon
-
-I was born and raised in New Orleans, Louisana, but have lived in Oakland for the last twenty years. I love movies and libraries and dinosaurs.
-
-
-----
-
-
 ## Skills
 
 ### Web
@@ -34,5 +26,6 @@ I write things. Screenplays, comics, film criticism. Other stuff. You can tell I
 
 ----
 
-## Work History
+## About Shannon
 
+I was born and raised in New Orleans, Louisana, but have lived in Oakland for the last twenty years. I love movies and libraries and dinosaurs.
