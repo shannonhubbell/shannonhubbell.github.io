@@ -64,7 +64,7 @@ I write things! Screenplays, comics, film criticism. Other stuff. You can tell I
 ### Museum of Digital Art and Entertainment (2019-present)
 #### Volunteer Web and Social Media Project Manager
 
-* Supervises website for non-profit museum, archive, and educational non-profit.
+* Supervises website for museum, archive, and educational non-profit.
 * Writes social media posts.
 
 ----
