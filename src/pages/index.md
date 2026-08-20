@@ -16,7 +16,7 @@ I'm Shannon. Nice to meet you. Here are some neat things I have been working on 
         <li>
             <article>
                 <h1><a href="https://themade.org">The MADE</a></h1>
-                <p>I volunteer with Oakland's <strong>Museum of Art and Digital Entertainment (MADE)</strong>. The MADE is a playable console video game museum, which is exactly as fun as it sounds. They also offer classes, community events, and volunteering opportunities around gaming culture and creation. I help run their website and contribute to <a href="https://bsky.app/profile/mademuseum.bsky.social" target="_blank">their social media presence</a>.</p>
+                <p>I volunteer at Oakland's <strong>Museum of Art and Digital Entertainment (MADE)</strong>. The MADE is a playable console video game museum, which is exactly as fun as it sounds. They also offer classes, community events, and volunteering opportunities around gaming culture and creation. I help run their website and contribute to <a href="https://bsky.app/profile/mademuseum.bsky.social" target="_blank">their social media presence</a>.</p>
             </article>
         </li>
         <li>
