@@ -1,7 +1,8 @@
 ---
 layout: '../layouts/Layout.astro'
-title: "Shannon Hubbell's Resumé"
-description: 'Writer. Coder. Dinosaur aficionado.'
+title: Shannon Hubbell's Resumé
+description: Writer. Coder. Dinosaur aficionado.
+classes: [page, resume]
 ---
 
 # Resumé
@@ -71,6 +72,6 @@ I write things! Screenplays, comics, film criticism. Other stuff. You can tell I
 
 ## About Shannon
 
-I was born and raised in New Orleans, Louisana, but have lived in Oakland for the last twenty years. I love movies and libraries and dinosaurs.
+I was born and raised in New Orleans but have lived in Oakland, California for the last twenty years. I love movies and libraries and dinosaurs.
 
 Contact me at brundlefly@gmail.com.

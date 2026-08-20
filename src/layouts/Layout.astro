@@ -39,7 +39,7 @@ const { frontmatter } = Astro.props;
 		/>
 		<title>{frontmatter.title}</title>
 	</head>
-	<body>
+	<body class:list={frontmatter.classes}>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript
 			><iframe

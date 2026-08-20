@@ -5,7 +5,11 @@ import shannonHeadshot from "../assets/sh-headshot.webp";
 <header>
     <h1><a href="/">Shannon Ellery Hubbell</a></h1>
     <h2>Writer. Coder. Dinosaur&nbsp;aficionado.</h2>
-    <ul class="contact">
+    <ul class="menu">
+        <li><a href="/" class="projects home">Projects</a></li>
+        <li>
+            <a href="/resume/" class="resume">Resumé</a>
+        </li>
         <li>
             <a
                 href="https://bsky.app/profile/brundlefly.bsky.social"
@@ -25,9 +29,6 @@ import shannonHeadshot from "../assets/sh-headshot.webp";
         </li>
         <li>
             <a href="mailto:brundlefly+github@gmail.com">Email</a>
-        </li>
-        <li>
-            <a href="/resume/">Resumé</a>
         </li>
     </ul>
 </header>
@@ -55,7 +56,7 @@ import shannonHeadshot from "../assets/sh-headshot.webp";
         padding: 0.4rem 0 0 0;
     }
 
-    ul.contact {
+    ul.menu {
         list-style: none;
         display: flex;
         margin: 0;
@@ -81,4 +82,9 @@ import shannonHeadshot from "../assets/sh-headshot.webp";
             }
         }
     }
+    body.projects a.projects,
+    body.resume a.resume {
+        color: #000;
+    }
+
 </style>
