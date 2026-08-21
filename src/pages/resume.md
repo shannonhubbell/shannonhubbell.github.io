@@ -11,6 +11,7 @@ classes: [page, resume]
 Oakland, CA 94607<br>
 brundlefly@gmail.com
 
+----
 
 ## Skills
 
