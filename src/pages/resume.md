@@ -7,6 +7,11 @@ classes: [page, resume]
 
 # Resumé
 
+**Shannon Ellery Hubbell**<br>
+Oakland, CA 94607<br>
+brundlefly@gmail.com
+
+
 ## Skills
 
 ### Web
@@ -53,6 +58,11 @@ I write things! Screenplays, comics, film criticism. Other stuff. You can tell I
 
 * Edited and created motion graphics for marketing videos.
 * Updated websites with current news and press releases.
+
+### Cerrito Speakeasy Movie Theater (2007-2008)
+#### Shift Manager
+
+* Managed an independent movie theater, front and back of house.
 
 ### See Change (2006-2007)
 #### Production Manager
