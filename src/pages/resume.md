@@ -62,7 +62,10 @@ I write things! Screenplays, comics, film criticism. Other stuff. You can tell I
 ### Cerrito Speakeasy Movie Theater (2007-2008)
 #### Shift Manager
 
-* Managed an independent movie theater, front and back of house.
+* Managed shift workers, from box office to servers to kitchen staff.
+* Counted tills.
+* Introduced special screenings and events, which was fun.
+* Shut down the 35mm projector after the last screening of the night (which was also fun).
 
 ### See Change (2006-2007)
 #### Production Manager
