@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Work Account",
+    "name": "John Doe (Work)",
+    "email": "john.doe@company.com"
+  },
+  {
+    "label": "Personal Account",
+    "name": "John Doe",
+    "email": "john.doe@gmail.com"
+  },
+  {
+    "label": "shannonhubbell",
+    "name": "Shannon Hubbell",
+    "email": "brundlefly+github@gmail.com"
+  }
+]
