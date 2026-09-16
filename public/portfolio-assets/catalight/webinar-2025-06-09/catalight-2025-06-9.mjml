@@ -1,0 +1,107 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+    </mj-style>
+  </mj-head>
+  <mj-body width="700px">
+    <mj-hero>
+      <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/header.png" alt="U.S.A. vs. Netherlands: A Global Conversation on Autism Care - One Size Doesn't Fit All" href="https://event.on24.com/wcc/r/4983416/E77448B86C952B7223184D5056F00017?partnerref=catalight"></mj-image>
+    </mj-hero>
+    <mj-section>
+      <mj-column padding-left="40px" padding-right="40px">
+        <mj-text font-size="20px" line-height="36px" font-family="Raleway">
+          <p style="color: #435b73">
+            <strong>Date:</strong> June 26, 2025<br />
+            <strong>Time:</strong> 9 a.m. PDT<br />
+            <a href="https://event.on24.com/wcc/r/4983416/E77448B86C952B7223184D5056F00017?partnerref=catalight" style="color: #435b73; text-decoration: underline">Register Now</a>
+          </p>
+        </mj-text>
+        <mj-text font-size="18px" line-height="22px" color="#435b73" font-family="Raleway">
+          <p>
+            Join a discussion hosted by Catalight and Behavioral Health Business on autism care patterns across Europe and learn how clinicians and experts approach autism treatment in other countries.
+          </p>
+          <p>
+          Engage with Catalight’s Chief Clinical Officer Doreen Samelson, Ed.D., MSCP;  Psychiatrist Yvette Roke, MD, Ph.D., of GGz Centraal, Netherlands and Developer of the SAM app; and Alvin van Asselt, an autistic Ph.D. student and researcher, also of GGz Centraal, Netherlands.
+          </p>
+          <p>
+          Gain insights into the contrasting approaches to autism support in the United States and Europe—particularly the Netherlands, where the focus is shifting from high-hour Applied Behavioral Analysis (ABA) toward parent-mediated and self-directed care models.
+          </p>
+          <p>
+          <strong>Key takeaways include:</strong>
+          </p>
+          <ul>
+            <li>Progressive care that pinpoints the right measure and yields the most worthwhile outcomes</li>
+            <li>How the United States can incorporate European methods for more effective care and cost</li>
+            <li>Insights into parent-mediated care practices and their impact on patient and family wellbeing</li>
+            <li>The importance of incorporating autistic voices in treatment development and decision-making</li>
+            <li>Discussion on the ethical considerations of aiming to reduce autistic traits versus supporting individual autonomy</li>
+          </ul>
+        </mj-text>
+        <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/register-cta.jpg" width="234px" alt="Register Now" href="https://event.on24.com/wcc/r/4983416/E77448B86C952B7223184D5056F00017?partnerref=catalight" align="center"></mj-image>
+        <mj-text>
+        <br><br><br>
+        </mj-text>
+        <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/speaker-information.jpg" width="260px" alt="Speaker Information" align="center"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-left="40px" padding-right="40px">
+        <mj-column>
+            <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/bio-samelson.jpg" width="181px" alt="Doreen Samelson"></mj-image>
+            <mj-text font-size="19px" align="center" padding="0"  font-family="Raleway"  color="#435B73">
+                <p><strong>Doreen Samelson,<br>EdD, MSCP</strong></p>
+            </mj-text>
+            <mj-text align="center" padding="0" font-size="13px" font-family="Raleway" color="#435B73">
+                <p>Chief Clinical Officer<br>
+                Catalight
+                </p>
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/bio-roke.jpg" width="181px" alt="Yvette Roke"></mj-image>
+            <mj-text font-size="19px" align="center" padding="0"  font-family="Raleway" color="#435B73">
+                <p><strong>Yvette<br>Roke, MD, Ph.D.</strong></p>
+            </mj-text>
+            <mj-text align="center" padding="0" font-size="13px" font-family="Raleway" color="#435B73">
+                <p>Psychiatrist<br>
+                GGz Centraal, Netherlands<br>
+                Developer of the SAM app
+                </p>
+            </mj-text>
+        </mj-column>
+        <mj-column>
+            <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/bio-vanasselt.jpg" width="181px" alt="Doreen Samelson"></mj-image>
+            <mj-text font-size="19px" align="center" padding="0"  font-family="Raleway" color="#435B73">
+                <p><strong>Alvin<br>
+                van Asselt</strong></p>
+            </mj-text>
+            <mj-text align="center" padding="0" font-size="13px" font-family="Raleway" color="#435B73">
+                <p>Ph.D. Student<br>
+                GGz Centraal, Netherlands
+                </p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section>
+        <mj-column>
+            <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/sponsored-by.jpg" width="186px" alt="Speaker Information" align="center"></mj-image>
+            <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/footer-logo.png" width="362px" alt="Catalight" align="center"></mj-image>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#435B73" padding="40px">
+        <mj-column>
+            <mj-image src="https://www.viewstream-media.com/catalight/webinar-2025-06-09/img/footer-logo-white.png" width="224px" alt="Catalight" align="center"></mj-image>
+
+            <mj-text align="center" padding="0" font-size="14px" font-family="Questrial" color="#FFFFFF">
+                <p>©2024 Catalight. All rights reserved.</p>
+            </mj-text>
+            <mj-text align="center" padding="0" font-size="14px" font-family="Questrial" color="#FFFFFF">
+                <p><a href="https://www.catalight.org/terms-of-use" style="text-decoration:underline;color:#FFFFFF">Terms of Use</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://www.catalight.org/privacy-policy" style="text-decoration:underline;color:#FFFFFF">Privacy Policy</a></p>
+            </mj-text>
+            <mj-text align="center" padding="0" font-size="12px" line-height="18px" font-family="Questrial" color="#FFFFFF">
+                <p>Please note that this document is intended only for residents of the United States of America. Our data collection practices are designed to meet the standards of the United States and may not be suitable for individuals and/or organizations located outside of the United States. We strive to maintain the highest levels of data privacy and security, in accordance with applicable laws and regulations. However, we cannot guarantee that our practices will comply with the laws of other jurisdictions.</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

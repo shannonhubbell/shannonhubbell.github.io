@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <!-- 1) Load Outfit from Google Fonts -->
+    <mj-font name="Outfit" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" />
+        <mj-breakpoint width="640px" />
+    <!-- 2) Set a global font stack with solid fallbacks -->
+    <mj-attributes>
+      <mj-all font-family="Outfit, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" />
+    </mj-attributes>
+    <mj-style inline="inline"> html { background-color: #B8B2B2 !important; } </mj-style>
+    <!-- Global link styles (not inlined) -->
+    <mj-style>
+      /* Hide the “mobile” image on desktop */
+      .show-mobile { display: none; max-height: 0;}
+
+      /* Hide the “desktop” image on mobile */
+      .hide-mobile { display: block; max-height: none; overflow: visible; }
+
+      @media screen and (max-width:639px) {
+        .has-header-copy-size * {
+          font-size: 22px !important;
+font-style: normal !important;
+font-weight: 300 !important;
+line-height: 1.18182 !important;
+letter-spacing: -0.44px !important;
+        }
+        .has-mobile-hero-padding > table > tbody > tr > td {
+          padding: 20px !important;
+        }
+        .hero-shape-divider {
+          padding: 13.37px 0 !important;
+
+        }
+        .hero-shape-divider img {
+          width: 35px !important;
+        }
+        .has-mobile-padding > table > tbody > tr > td {
+          padding: 25px 20px !important;
+        }
+        .show-mobile { display: block !important; width: 100% !important; height: auto !important; max-height: none;}
+        .hide-mobile { display: none !important; max-height: 0; overflow: hidden; }
+
+       .has-body-image > table > tbody > tr > td {
+          padding: 0 0 20px !important;
+        }
+        .has-body-image td,
+        .has-body-image table {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          width: 100% !important
+        }
+
+        .has-section-copy-size * {
+font-size: 16px !important;
+font-style: normal !important;
+font-weight: 400 !important;
+line-height:1.25 !important;
+letter-spacing: -0.32px !important;
+        }
+        .has-body-copy-size * {
+          text-align: justify !important;
+font-size: 14px !important;
+font-style: normal !important;
+font-weight: 300 !important;
+line-height: 1.28571 !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#B8B2B2" width="640px">
+    <mj-raw>
+      <style type="text/css">
+        /* all text links */
+        a {
+          color: #3e60d8;
+          text-decoration-line: underline;
+          text-decoration-style: solid;
+          text-decoration-skip-ink: auto;
+          text-decoration-thickness: auto;
+          text-underline-offset: auto;
+          text-underline-position: from-font;
+        }
+      </style>
+    </mj-raw>
+    <mj-section padding="0px"  background-color="#EBEDEF" >
+      <mj-column width="50%" background-color="#fff" padding="20px 12.5%" css-class="stack-below-640 has-mobile-hero-padding">
+        <mj-image padding="0" src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/logo-kricket-black.png" width="105px" height="auto" alt="Kricket Powered by KPAP" align="left" />
+        <mj-image padding="27.89px 0" src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/header-accent.png" width="54px" height="auto" alt="" align="left" css-class="hero-shape-divider" />
+        <mj-text padding="0" align="left" font-size="26px" color="#221F1F" font-weight="300" line-height="1.15385" letter-spacing="-0.02em" css-class="has-header-copy-size">Header style lorem ipsum dolores set</mj-text>
+      </mj-column>
+      <mj-column width="50%" background-color="#EBEDEF" padding="0" css-class="stack-below-640 hide-mobile">
+        <mj-image src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/header-image.png" css-class="hide-mobile" padding="0" alt=""/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px"  background-color="#EBEDEF" css-class="show-mobile" >
+      <mj-column width="100%" background-color="#EBEDEF" padding="0">
+        <mj-image src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/header-image-mobile.png" css-class="show-mobile mobile-image" padding="0" alt=""/>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="50px 40px" background-color="#EBEDEF" css-class="has-mobile-padding">
+      <mj-column padding="0">
+        <mj-text padding="0 0 15px" align="left" font-size="20px" font-weight="400" line-height="1.2" letter-spacing="-0.4px" color="#221F1F" css-class="has-section-copy-size">Section header style lorem ipsum dolores</mj-text>
+        <mj-text padding="0 0 15px" color="#221F1F" align="justify" font-size="16px" font-weight="300" line-height="1.375" css-class="has-body-copy-size"
+          >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+          lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat. Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
+          dignissim qui blandit praesent luptatum zzril delenit augue duis <a href="#" target="_blank">dolore te feugait</a> nulla facilisins ectetuer adipiscing.</mj-text
+        >
+        <mj-image src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/cta-discover-more.png" padding="0" align="center" alt="Discover More" href="#" width="200px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#fcfcfc" padding="50px 40px" css-class="has-mobile-padding">
+      <mj-column padding="0 20px 0 0" width="48.214285714%" css-class="stack-below-640 has-body-image">
+        <mj-image src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/body-image.jpg"padding="0" align="left"></mj-image>
+      </mj-column>
+      <mj-column padding="0" width="48.214285714%" css-class="stack-below-640">
+        <mj-text padding="0 0 15px" align="left" font-size="20px" font-weight="400" line-height="1.2" letter-spacing="-0.4px" color="#221F1F" css-class="has-section-copy-size">Section header style lorem ipsum dolores</mj-text>
+        <mj-text padding="0 0 15px" color="#221F1F" align="justify" font-size="16px" font-weight="300" line-height="1.375" css-class="has-body-copy-size"
+          >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</mj-text
+      </mj-column>
+    </mj-section>
+<mj-wrapper background-color="#000000" padding="0" css-class="hide-mobile">
+      
+      <!-- top row: logo left / contact info right -->
+      <mj-section padding="40px 40px 20px">
+        <mj-column width="50%">
+          <mj-image
+            src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/logo-kricket-white.png"
+            alt="kricket"
+            width="109px"
+            align="left"
+            padding="0"
+          />
+        </mj-column>
+        <mj-column width="50%" vertical-align="middle">
+          <mj-text
+            padding="0"
+            align="right" color="#fff" font-size="12px" font-weight="300" letter-spacing="0.24px"
+          >
+            Phone: 615-921-2406 | Fax: 855-854-5419<br/>
+            1508 Carl Adams Drive, Ste 200<br/>
+            Murfreesboro, TN 37129
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+      <!-- bottom row: wave graphic left / SleepRes logo + copyright right -->
+      <mj-section
+        background-url="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/footer-accent.png"
+        background-repeat="no-repeat"
+        background-position="bottom left"
+        background-size="55.78125%"
+        padding="0 40px 40px"
+      >
+        <mj-column width="56.607142857%">
+         
+        </mj-column>
+        <mj-column width="43.392857143%" vertical-align="middle">
+          <mj-image
+            src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/logo-sleepres.png"
+            alt="SleepRes"
+            width="100px"
+            align="right"
+            padding="0"
+          />
+          <mj-text
+            padding="10px 0 0 0"
+            align="right" color="#fff" font-size="9px" font-weight="400" letter-spacing="0.18px"
+          >
+            © 2025 SleepRes, Inc. All Rights Reserved.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      
+    </mj-wrapper>
+<mj-wrapper background-color="#000000" padding="0" css-class="show-mobile">
+      
+      <!-- top row: logo left / contact info right -->
+      <mj-section padding="25px 20px 0">
+        <mj-column width="100%" vertical-align="middle">
+                  <mj-image
+            src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/logo-kricket-white-mobile.png"
+            alt="kricket"
+            width="92px"
+            align="center"
+            padding="0 0 25px"
+          />
+          <mj-text
+            padding="0"
+            align="center" color="#fff" font-size="10px" font-weight="300" letter-spacing="-0.px"
+          >
+            Phone: 615-921-2406 | Fax: 855-854-5419<br/><br />
+            1508 Carl Adams Drive, Ste 200<br/>
+            Murfreesboro, TN 37129
+          </mj-text>
+                    <mj-image
+            src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/logo-sleepres.png"
+            alt="SleepRes"
+            width="100px"
+            align="center"
+            padding="22px 0 10px"
+          />
+                    <mj-text
+            padding="10px 0 0 0"
+            align="center" color="#fff" font-size="7px" font-weight="400" letter-spacing="-0.14px"
+          >
+            © 2025 SleepRes, Inc. All Rights Reserved.
+          </mj-text>
+          <mj-image src="https://viewstream-media.com/sleepres/kricket/edms/template-01/images/footer-accent-mobile.png" alt="" padding="27.5px 0 0"/>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

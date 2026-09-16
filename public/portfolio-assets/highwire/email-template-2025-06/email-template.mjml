@@ -1,0 +1,285 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .label { display: inline-block; line-height: 100%; padding: 4px 8px; margin: 14px 0; } .label.orchid { border: 1px solid #FDDEFF } .label.sky { border: 1px solid #C3E7FF; } .footer-nav a { padding: 0px !important; width: 50%; }
+      .mobile-only {
+         display:none !important;font-size:0px !important;max-height:0px !important;line-height:0px !important;
+      }
+      @media only screen and (max-width: 600px) {
+        * {
+          max-width: 100% !important;
+        }
+        .mobile-hide {
+          display: none !important;
+        }
+        .mobile-only {
+          display: block !important;
+          font-size: auto !important;
+          max-height: 100% !important;
+          line-height: auto !important;
+        }
+        .mobile {
+          padding: 20px !important;
+          width: auto !important;
+          display: block !important;
+        }
+        .mobile td:not(.label) {
+          padding-left: 0px !important;
+          width: auto !important;
+        }
+        .byline td {
+          padding-right: 20px !important;
+        }
+        .articles {
+          margin: 20px !important;
+        }
+        .articles .copy {
+          width: auto !important;
+          padding: 0 30px;
+        }
+        .articles .label {
+          display: inline-block;
+          width: auto !important;
+        }
+        .articles td {
+          width: 100% !important;
+        }
+        .articles img {
+          width: 100% !important;
+        }
+        .social td {
+          padding-left: 0 !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#000000" width="600px">
+    <mj-section padding="0 32px">
+      <mj-column padding="20px 0px" width="40%">
+        <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/header-logo.png" alt="{{ site_settings.company_name }}" width="154px" align="left" padding="0px"></mj-image>
+      </mj-column>
+      <mj-column padding="12px 0px" width="60%">
+        <mj-navbar padding="0px" css-class="mobile-hide">
+          <mj-navbar-link href="https://www.teamhighwire.com/work" color="#ffffff" font-family="Arial" text-transform="lowercase" font-size="16px">work</mj-navbar-link>
+          <mj-navbar-link href="https://www.teamhighwire.com/capabilities-marketing" color="#ffffff" font-family="Arial" text-transform="lowercase" font-size="16px">capabilities</mj-navbar-link>
+          <mj-navbar-link href="https://www.teamhighwire.com/blog" color="#ffffff" font-family="Arial" text-transform="lowercase" font-size="16px">insights</mj-navbar-link>
+          <mj-navbar-link href="https://www.teamhighwire.com/contact" color="#ffffff" font-family="Arial" text-transform="lowercase" font-size="16px">contact</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="32px">
+      <mj-column padding="0px">
+        <mj-text padding="0px" font-size="24px" font-family="sans-serif" text-transform="uppercase" color="#FFFFFF">lorem ipsum</mj-text>
+        <mj-text padding="0px " font-size="64px" font-family="sans-serif" color="#FFFFFF" line-height="76px">Lorem ipsum<br />dolor sit amet</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="47px 32px" css-class="mobile">
+      <mj-column padding="0 0 0 100px" css-class="mobile">
+        <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/banner-image.jpg" alt="" align="right" padding="0px"></mj-image>
+        <mj-text padding="26px 0px" font-size="32px" font-family="sans-serif" color="#FFFFFF" line-height="36px">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+        <mj-text padding="0px " font-size="16px" font-family="sans-serif" color="#FFFFFF" line-height="20px"
+          >Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </mj-text>
+        <mj-spacer height="60px"></mj-spacer>
+        <mj-table padding="0px" css-class="byline">
+          <tr>
+            <td style="text-align: left" width="65">
+              <img src="https://www.viewstream-media.com/highwire/email-template-2025-06/byline.jpg" width="65" alt="" />
+            </td>
+            <td style="padding: 10px 16px">
+              <h2 style="color: #ffffff; font-size: 28px; font-weight: normal; font-family: Arial, Helvetica, sans-serif; padding: 0; margin: 0">Jane Doe</h2>
+              <p style="color: #ffffff; font-size: 20px; font-weight: 700; font-family: Arial, Helvetica, sans-serif; text-transform: uppercase; margin: 8px 0">SVP Marketing</p>
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper background-color="#F1F1F1" padding="0px" css-class="articles">
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="55px" font-family="Arial" line-height="60px" padding="0px 30px"> Lorem<br />Ipsum </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column width="50%">
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/placeholder-01.jpg" alt="" width="241px" align="left"></mj-image>
+        </mj-column>
+        <mj-column padding="0px 30px 0 0" css-class="copy">
+          <mj-text font-size="14px" font-family="Arial" padding="4px 8px" css-class="label sky">label</mj-text>
+          <mj-text font-size="28px" font-family="Arial" padding="0px">Lorem ipsum dolor sit amet</mj-text>
+          <mj-text font-size="16px" font-family="Arial" line-height="20px" padding="16px 0">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+          <mj-button font-size="14px" border-radius="0" font-family="Arial" padding="0px" line-height="100%" align="left" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="43px 0px">
+        <mj-column width="50%">
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/placeholder-02.jpg" alt="" width="241px" align="left"></mj-image>
+        </mj-column>
+        <mj-column padding="0px 20px 0 0" css-class="copy">
+          <mj-text font-size="14px" font-family="Arial" padding="4px 8px" css-class="label sky">label</mj-text>
+          <mj-text font-size="28px" font-family="Arial" padding="0px">Lorem ipsum dolor sit amet</mj-text>
+          <mj-text font-size="16px" font-family="Arial" line-height="20px" padding="16px 0">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+          <mj-button font-size="14px" border-radius="0" font-family="Arial"  padding="0px" line-height="100%" align="left" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#FF7042" padding="44px 32px">
+      <mj-section>
+        <mj-column>
+          <mj-text align="center" font-size="28px" padding="0px" font-family="Arial"> Lorem ipsum dolor sit amet </mj-text>
+          <mj-text align="center" font-size="16px" padding="20px 0px" line-height="20px"> Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </mj-text>
+          <mj-button font-size="14px" border-radius="0" font-family="Arial" padding="0px" line-height="100%" align="center" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#F1F1F1" padding="44px 30px" css-class="articles">
+      <mj-section>
+        <mj-column>
+          <mj-text font-size="55px" font-family="Arial" line-height="60px" padding="0px">Latest Articles</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="36px 10px" background-color="#BFBFBF">
+        <mj-column width="50%">
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/placeholder-01.jpg" alt="" width="241px" align="left"></mj-image>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text font-size="14px" padding="4px 8px" font-family="Arial" css-class="label orchid">label</mj-text>
+          <mj-text font-size="28px" font-family="Arial" padding="0px">Lorem ipsum dolor sit amet</mj-text>
+          <mj-text font-size="16px" font-family="Arial" line-height="20px" padding="16px 0">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+          <mj-button font-family="Arial" border-radius="0px" font-size="14px" padding="0px" line-height="100%" align="left" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section padding="36px 10px" background-color="#7F7F7F">
+        <mj-column width="50%">
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/placeholder-02.jpg" alt="" width="241px" align="left"></mj-image>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text font-size="14px" font-family="Arial" padding="4px 8px" css-class="label sky">label</mj-text>
+          <mj-text font-size="28px" font-family="Arial" padding="0px">Lorem ipsum dolor sit amet</mj-text>
+          <mj-text font-size="16px" font-family="Arial" line-height="20px" padding="16px 0">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+          <mj-button font-family="Arial"  font-size="14px" padding="0px" line-height="100%" align="left" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column></mj-column>
+      </mj-section>
+      <mj-section padding="36px 10px" background-color="#000000">
+        <mj-column width="50%">
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/placeholder-01.jpg" alt="" width="241px" align="left"></mj-image>
+        </mj-column>
+        <mj-column padding="0px">
+          <mj-text font-size="14px" color="#FFFFFF" padding="4px 8px" css-class="label sky">label</mj-text>
+          <mj-text font-size="28px" font-family="Arial" color="#FFFFFF" padding="0px">Lorem ipsum dolor sit amet</mj-text>
+          <mj-text font-size="16px" font-family="Arial" color="#FFFFFF" line-height="20px" padding="16px 0">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+          <mj-button font-family="Arial" border-radius="0" font-size="14px" background-color="#FFFFFF" color="#000000" padding="0px" line-height="100%" align="left" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#000000">
+      <!--[if !mso]>-->
+      <mj-section css-class="mobile-only">
+        <mj-column padding="0 0 0 100px" css-class="mobile mobile-only">
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/case-study-mobile.jpg" padding="0px 0px 31px 0px" alt="Case Study" css-class="mobile-show"></mj-image>
+          <mj-text font-size="14px" font-family="Arial" color="#FFFFFF" padding="4px 8px" css-class="label sky">label</mj-text>
+          <mj-text color="#FFFFFF" font-size="28px" padding="0px">Lorem ipsum dolor sit amet</mj-text>
+          <mj-text color="#FFFFFF" font-size="16px" padding="16px 0" line-height="20px">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+          <mj-button font-family="Arial" border-radius="0" font-size="14px" background-color="#FFFFFF" color="#000000" padding="0px" line-height="100%" align="left" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+      <!--<![endif]-->
+      <mj-section css-class="mobile-hide">
+        <mj-column padding="0 0 0 100px" css-class="mobile-hide">
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/case-study.jpg" padding="0px 0px 31px 0px" alt="Case Study" css-class="mobile-hide"></mj-image>
+          <mj-text font-size="14px" font-family="Arial" color="#FFFFFF" padding="4px 8px" css-class="label sky">label</mj-text>
+          <mj-text color="#FFFFFF" font-size="28px" padding="0px">Lorem ipsum dolor sit amet</mj-text>
+          <mj-text color="#FFFFFF" font-size="16px" padding="16px 0" line-height="20px">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mj-text>
+          <mj-button font-family="Arial" border-radius="0" font-size="14px" background-color="#FFFFFF" color="#000000" padding="0px" line-height="100%" align="left" href="#">learn more</mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-wrapper background-color="#F1F1F1">
+      <mj-section padding="32px" css-class="mobile-hide">
+        <mj-column width="40%">
+          <mj-navbar align="left" css-class="footer-nav">
+            <mj-navbar-link href="https://www.teamhighwire.com/" font-family="Arial" text-transform="lowercase" font-size="16px">agency</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/work" font-family="Arial" text-transform="lowercase" font-size="16px">work</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/about/culture-careers" font-family="Arial" text-transform="lowercase" font-size="16px">careers</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/capabilities-marketing" font-family="Arial" text-transform="lowercase" font-size="16px">capabilities</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/contact" font-family="Arial" text-transform="lowercase" font-size="16px">contact</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/blog" font-family="Arial" text-transform="lowercase" font-size="16px">insights</mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+        <mj-column css-class="social">
+          <mj-table align="right" width="50%">
+            <tr>
+              <td><a href="https://www.instagram.com/teamhighwire/"><img src="https://www.viewstream-media.com/highwire/email-template-2025-06/instagram.png" width="24px"></a></td>
+              <td><a href="https://www.facebook.com/HighwirePR"><img src="https://www.viewstream-media.com/highwire/email-template-2025-06/001-facebook.png" width="24px"></a></td>
+              <td><a href="https://www.linkedin.com/company/highwirepr/"><img src="https://www.viewstream-media.com/highwire/email-template-2025-06/002-linkedin.png" width="24px"></a></td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="32px" css-class="mobile-show">
+      <mj-column css-class="social">
+          <mj-table align="left" width="50%">
+            <tr>
+              <td><a href="https://www.instagram.com/teamhighwire/"><img src="https://www.viewstream-media.com/highwire/email-template-2025-06/instagram.png" width="24px"></a></td>
+              <td><a href="https://www.facebook.com/HighwirePR"><img src="https://www.viewstream-media.com/highwire/email-template-2025-06/001-facebook.png" width="24px"></a></td>
+              <td><a href="https://www.linkedin.com/company/highwirepr/"><img src="https://www.viewstream-media.com/highwire/email-template-2025-06/002-linkedin.png" width="24px"></a></td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column width="40%">
+          <mj-navbar align="left" css-class="footer-nav">
+            <mj-navbar-link href="https://www.teamhighwire.com/" font-family="Arial" text-transform="lowercase" font-size="16px">agency</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/work" font-family="Arial" text-transform="lowercase" font-size="16px">work</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/about/culture-careers" font-family="Arial" text-transform="lowercase" font-size="16px">careers</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/capabilities-marketing" font-family="Arial" text-transform="lowercase" font-size="16px">capabilities</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/contact" font-family="Arial" text-transform="lowercase" font-size="16px">contact</mj-navbar-link>
+            <mj-navbar-link href="https://www.teamhighwire.com/blog" font-family="Arial" text-transform="lowercase" font-size="16px">insights</mj-navbar-link>
+          </mj-navbar>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-image src="https://www.viewstream-media.com/highwire/email-template-2025-06/footer-logo.png" alt="Highwire" width="461px">
+        </mj-column>
+      </mj-section>
+      </mj-wrapper>
+      <mj-section>
+      </mj-section>
+      <mj-section>
+          <mj-column>
+            <mj-text color="#FFFFFF">
+              <h2 style="font-size: 16px; text-transform: uppercase; margin: 0px; padding: 0px">{{ site_settings.company_city }}</h2>
+            </mj-text>
+            <mj-spacer height="0"></mj-spacer>
+            <mj-text color="#FFFFFF">
+              <p style="margin: 0px; font-size: 16px;">{{ site_settings.company_street_address_1 }}</p>
+              <p style="margin: 0px; font-size: 16px;">{{ site_settings.company_city }}, {{ site_settings.company_state }}</p>
+            </mj-text>
+          </mj-column>
+          <mj-column>
+            <mj-text color="#FFFFFF">
+              <h2 style="font-size: 16px; text-transform: uppercase; margin: 0px; padding: 0px">New York</h2>
+            </mj-text>
+            <mj-spacer height="0"></mj-spacer>
+            <mj-text color="#FFFFFF">
+              <p style="margin: 0px; font-size: 16px;">{{ site_settings.company_street_address_2 }}</p>
+              <p style="margin: 0px; font-size: 16px;">New York, New York</p>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+        <mj-section>
+          <mj-column>
+            <mj-text color="#FFFFFF">
+              <a href="{{ unsubscribe_link }}" target="_blank">Unsubscribe</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
+  </mj-body>
+</mjml>
