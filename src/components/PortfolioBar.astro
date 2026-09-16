@@ -6,10 +6,10 @@ const { title, description } = Astro.props;
 
 <nav id="portfolio-bar">
     <div class="inner">
-        <a href="/portfolio" class="back"> Back to Portfolio</a>
+        <a href="/portfolio" class="back"> Back to Shannon's Portfolio</a>
         <a href="/" class="home">SH</a>
     </div>
-    <div class="description">
+    <div class="inner">
         {
             title && (
                 <div class="title">
@@ -38,9 +38,9 @@ const { title, description } = Astro.props;
             max-width: calc(100% - 2em);
             display: flex;
         }
-        .description {
+        .title {
             color: var(--color-copy);
-
+            margin: 1rem 0;
         }
         a {
             width: 50%;
