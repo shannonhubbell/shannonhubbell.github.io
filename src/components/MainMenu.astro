@@ -9,12 +9,13 @@
     <li>
         <a href="/writing/" class="writing">Writing</a>
     </li>
-    <li>
-        <a href="/contact/" class="contact">Contact</a>
-    </li>
 </ul>
 
 <style>
+    .menu-toggle,
+    .hamburger {
+        display: none;
+    }
     ul.menu {
         list-style: none;
         display: flex;
@@ -22,6 +23,7 @@
         padding:  1rem 0;
         gap: 1rem;
         width: 100%;
+        justify-content: right;
         li {
             padding: 0 1rem 0 0;
             border-right: 1px solid #999;
@@ -56,6 +58,15 @@
                 border-right: none;
                 font-size: 2rem;
             }
+        }
+    }
+    @media screen and (width < 500px) {
+        .hamburger {
+            display: block;
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            cursor: pointer;
         }
     }
     body.home a.home,
