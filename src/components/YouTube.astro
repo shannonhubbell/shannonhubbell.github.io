@@ -1,0 +1,19 @@
+---
+const { ytid } = Astro.props;
+---
+
+<div class="yt-embed">
+    <iframe class="yt-player" src={`https://www.youtube.com/embed/${ytid}`}
+    ></iframe>
+</div>
+<style>
+    .yt-embed {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+    }
+</style>
