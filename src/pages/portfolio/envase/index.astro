@@ -1,6 +1,8 @@
 ---
 import GtmHeader from "../../../components/GtmHeader.astro";
 import PortfolioBar from "../../../components/PortfolioBar.astro";
+const portfolioTitle = "Envase Lite: The Next-Gen App for Digital Drayage"
+const portfolioDescription = "Marketing microsite for a cloud-based, comprehensive drayage system.";
 ---
 <!doctype html>
 <html lang="en">
@@ -14,7 +16,7 @@ import PortfolioBar from "../../../components/PortfolioBar.astro";
 	</head>
 
 	<body>
-		<PortfolioBar />
+		<PortfolioBar title={portfolioTitle} description={portfolioDescription} />
 		<header id="masthead">
 			<div class="wrapper">
 				<div class="site-branding">

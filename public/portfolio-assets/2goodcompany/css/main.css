@@ -47,7 +47,7 @@ table {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #FFF; }
+  color: #FFF !important; }
 
 a.active, a:hover {
   transition: 0.4s;

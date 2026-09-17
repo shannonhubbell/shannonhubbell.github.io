@@ -1,6 +1,8 @@
 ---
 import GtmHeader from "../../../components/GtmHeader.astro";
 import PortfolioBar from "../../../components/PortfolioBar.astro";
+const portfolioTitle = "Cepheid"
+const portfolioDescription = "Marketing microsite for a medical diagnostics company specializing in DNA testing.";
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -82,7 +84,7 @@ is:inline
     <!-- OneTrust Cookies Consent Notice end for cepheid.com -->
   </head>
   <body>
-    <PortfolioBar />
+		<PortfolioBar title={portfolioTitle} description={portfolioDescription} />
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
