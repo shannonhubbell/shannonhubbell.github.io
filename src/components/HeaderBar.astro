@@ -8,11 +8,10 @@ import MainMenu from "../components/MainMenu.astro";
         <h2>Writer. Coder. Dinosaur&nbsp;aficionado.</h2>
         <MainMenu />
     </div>
-    <a href="/"
+    <a class="mug align-right" href="/"
         ><img
             src="/img/headshot.webp"
             alt="Headshot of Shannon"
-            class="align-right mug"
             width="150"
             height="150"
         />
@@ -52,10 +51,22 @@ import MainMenu from "../components/MainMenu.astro";
         width: calc(100% - 200px);
         text-align: right;
     }
-    img.mug {
-        border-radius: 50%;
+    a.mug {
+        border-radius: 50% 0 50% 0;
         aspect-ratio: 1 /1;
         border: 10px solid var(--color-highlight);
+        display: inline-block;
+        line-height: 0;
+        overflow: hidden;
+        img {
+            filter: grayscale(100);
+            transition: all .5s;
+            transform: scale(1);
+            &:hover {
+                filter: grayscale(0);
+                transform: scale(1.1);
+            }
+        }
     }
     @media screen and (width < 600px) {
         header {
@@ -65,7 +76,7 @@ import MainMenu from "../components/MainMenu.astro";
             width: auto;
             text-align:;
         }
-        img.mug {
+        a.mug {
             display: none;
         }
         h1 {
