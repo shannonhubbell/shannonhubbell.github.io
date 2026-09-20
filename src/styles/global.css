@@ -42,3 +42,30 @@ pre {
 		grid-template-columns: 1fr;
 	}
 }
+
+body.home {
+	main {
+		display: flex;
+		justify-content: space-between;
+
+		aside,
+		.welcome {
+			width: calc(50% - 1rem);
+			h1 {
+				em {
+					font-style: normal;
+					color: var(--color-highlight);
+				}
+			}
+		}
+
+		@media screen and (width < 600px) {
+			flex-wrap: wrap;
+			flex-direction: column-reverse;
+			aside,
+			.welcome {
+				width: 100%;
+			}
+		}
+	}
+}
