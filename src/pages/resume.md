@@ -12,85 +12,101 @@ classes: [page, resume]
 Oakland, CA 94607<br>
 brundlefly@gmail.com
 
-[PDF Download](/docs/shannon-hubbell-resume-2026-09.pdf)
+[PDF Download](/docs/shannon-hubbell-resume-2026-10.pdf)
+
+----
+
+# Professional summary
+
+Creative web developer, writer, and project manager with experience building websites, applications, responsive emails, animated assets, and virtual event experiences for clients including Autodesk, Adobe, Cisco, Salesforce, and Google. Skilled in quality assurance, content management systems, social media, motion graphics, and collaborating with designers and clients to deliver engaging digital experiences.
+
+----
+
+## Work experience
+
+### Volunteer Web and Social Media Project Manager
+#### Museum of Art and Digital Entertainment
+#### January 2019 to Present
+
+* Supervise the website for a museum, archive, and educational nonprofit, maintaining accurate and accessible online content
+* Write social media posts that promote museum programming, educational initiatives, and organizational updates to online audiences
+
+### Web Developer
+#### Freelance | Oakland, CA
+#### January 2018 to Present
+
+* Develop websites for clients such as Autodesk, Adobe, and Cisco, delivering customized digital experiences aligned with client requirements
+* Create animated videos for web assets, adding motion graphics that strengthen digital marketing and audience engagement
+* Develop responsive HTML emails for HubSpot and other CRMs, supporting consistent communication across devices and marketing platforms
+* Build web applications and experiences for live virtual events, enabling interactive digital engagement for remote audiences
+
+### Senior Web Developer
+#### Viewstream
+#### January 2008 to January 2018
+
+* Developed websites and applications for companies such as Autodesk, Adobe, Salesforce, and Google, delivering tailored digital experiences for enterprise clients
+* Managed quality assurance on responsive web projects across desktop and mobile devices, improving consistency and functionality before launch
+* Built interactive touchscreen applications using web technologies for internal and external events, creating engaging event experiences
+* Created email templates and managed localized email campaigns using Salesforce, supporting coordinated communications across regional audiences
+* Created animated HTML banners and managed retargeted ad campaigns, strengthening digital advertising initiatives through motion-based creative
+* Collaborated with designers and clients to refine requirements, aligning project deliverables with creative goals and stakeholder expectations
+* Trained clients in using content management systems such as WordPress, improving their ability to maintain and update website content
+
+### Video Editor, Animator, Web Developer
+#### Viewstream
+#### January 2007 to January 2008
+
+* Edited marketing videos and created motion graphics, strengthening visual storytelling and supporting promotional communications
+* Updated websites with current news and press releases, keeping online content accurate, timely, and relevant to visitors
+
+### Shift Manager
+#### Cerrito Speakeasy Movie Theater
+#### January 2007 to January 2008
+
+* Managed shift workers across the box office, server, and kitchen teams, coordinating daily operations and maintaining
+service continuity
+* Counted tills at shift close, supporting accurate cash reconciliation and financial controls
+* Introduced special screenings and events
+* Shut down the 35mm projector after the last screening of the night, completing end-of-day theater operations safely and reliably
+
+### Production Manager
+#### See Change
+#### January 2006 to January 2007
+
+* Edited documentaries and created motion graphics for nonprofit evaluations, clarifying program outcomes through compelling visual storytelling
+* Filmed video interviews, capturing source material for evaluative documentaries and organizational communications
+* Coordinated with the company team to determine b-roll locations and shot b-roll footage, supporting complete and context-rich documentary production
+* Created interactive menus for DVDs, improving navigation and accessibility for viewers accessing documentary content
+
+----
+
+## Education
+
+### Drama and Communications (Film)
+#### University of New Orleans
+#### 2000 to 2005
+
+### Creative Writing
+#### New Orleans Center for Creative Arts
+#### 1997 to 1999
+
 
 ----
 
 ## Skills
 
-### Web
-
-As a coder I have spent over 25 years building digital marketing assets for clients such as **Adobe**, **Google**, **Autodesk**, **Microsoft**, and **Salesforce**. This has included full sites, campaign pages, EDM templates, animated banner ads, and virtual event applications.
-
-HTML, Javascript, CSS, PHP, WordPress, Django, Wagtail, Contentful, Astro. Whatever tool does the job. I work from designs in Photoshop, Figma, and GIMP.
-
-### Video
-
-I have been working in video post-production for 30 years, in narrative and documentary film, as well as marketing videos. I use Adobe Premiere and After Effects.
-
-### Writing
-
-I write things! Screenplays, comics, film criticism. Other stuff. You can tell I'm a fancy writer because I know when it's appropriate to use incomplete sentences to affect a casual tone. You can find some of my film writing on "Lewton Bus" and "CHUD."
-
-----
-
-## Work History
-
-### Web Developer (2018-present)
-#### Freelance
-
-* Websites for clients such as Autodesk, Adobe, and Cisco.
-* Animated videos for web assets.
-* Responsive HTML emails for Hubspot and other CRMs.
-* Web applications and experiences for live virtual events.
-
-### Viewstream (2008-2018)
-#### Senior Web Developer
-
-* Websites and applications for companies such as Autodesk, Adobe, Salesforce, and Google.
-* Managed quality assurance on responsive web projects across desktop and mobile devices.
-* Used web technologies to build interactive touch screen applications for internal and external events.
-* Created email templates and managed localized email campaigns using Salesforce.
-* Created animated HTML banners and managed retargeted ad campaigns.
-* Collaborated with designers and clients to refine requirements.
-* Trained clients in using content management systems such as WordPress.
-
-### Viewstream (2007-2008)
-#### Video Editor, Animator, Web Developer
-
-* Edited and created motion graphics for marketing videos.
-* Updated websites with current news and press releases.
-
-### Cerrito Speakeasy Movie Theater (2007-2008)
-#### Shift Manager
-
-* Managed shift workers, from box office to servers to kitchen staff.
-* Counted tills.
-* Introduced special screenings and events, which was fun.
-* Shut down the 35mm projector after the last screening of the night (which was also fun).
-
-### See Change (2006-2007)
-#### Production Manager
-
-* Edited and created motion graphics for evaluative documentaries for non-profit organizations.
-* Filmed video interviews.
-* Coordinated with the company team in determining b-roll locations and shot b-roll footage.
-* Created interactive menus for DVDs.
-
-----
-
-## Passion Projects
-
-### Museum of Art and Digital Entertainment (2019-present)
-#### Volunteer Web and Social Media Project Manager
-
-* Supervises website for museum, archive, and educational non-profit.
-* Writes social media posts.
-
-----
-
-## About Shannon
-
-I was born and raised in New Orleans but have lived in Oakland, California for the last twenty years. I love movies and libraries and dinosaurs.
-
-Contact me at brundlefly@gmail.com.
+* HTML/CSS/Javascript
+* Vue.js
+* Astro
+* Contentful
+* WordPress
+* PHP/MySQL
+* Web Accessibility
+* Git/Github
+* Responsive Email Development
+* HubSpot
+* Salesforce Marketing Cloud 
+* Google Analytics
+* Adobe Creative Suite (Photoshop, Premiere, After Effects)
+* Figma
+* Twine
